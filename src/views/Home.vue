@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 El emprendimiento es un fenómeno dinámico que combina creatividad, innovación y estrategia para identificar oportunidades y generar soluciones sostenibles, impactando positivamente en lo económico, social y ambiental. Se distingue por su conexión con la innovación, adaptación al riesgo, generación de valor y transformación cultural. Existen diversos tipos, como el tradicional, social, tecnológico e intraemprendimiento, cada uno enfrentando retos específicos. El emprendedor, figura central, lidera con resiliencia, pensamiento estratégico y motivación, mientras que la empresa coordina recursos para cumplir objetivos y contribuir al desarrollo sostenible. Además, el emprendimiento se analiza desde enfoques ambiental, sociológico y psicológico, destacando la importancia del entorno, las relaciones sociales y las características individuales.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold “El verdadero emprendedor no teme al fracaso, sino que lo convierte en el trampolín hacia el éxito.”
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -146,11 +146,12 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    background-color: #DECBA5 !important
+    color: $white !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #796F5A !important
+    color: $white !important
   &:hover
     .icon
       transform: scale(1.06)

@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 Esta unidad se enfoca en los fundamentos del emprendimiento, estableciendo una base sólida para comprender su influencia en el desarrollo personal, profesional y social. Aborda las definiciones clave de emprendimiento, emprendedor y empresa, facilitando la identificación y estructuración de iniciativas capaces de transformar ideas innovadoras en proyectos viables y sostenibles. 
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

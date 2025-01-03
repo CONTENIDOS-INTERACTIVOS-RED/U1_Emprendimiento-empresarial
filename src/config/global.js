@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Emprendimiento social',
   },
   menuPrincipal: {
     menu: [
@@ -37,38 +37,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Emprendedor',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Empresa',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -82,32 +58,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Liderazgo en el emprendimiento',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -121,14 +73,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo: 'Enfoque ambiental',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo: 'Enfoque sociológico',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Enfoque psicológico',
+            hash: 't_3_3',
           },
         ],
       },
@@ -170,109 +128,135 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Ballvé, A. M. & Fontana, A. (2021). El propósito de la empresa: hacia un liderazgo directivo centrado en el bien común. LID Editorial Empresarial.',
+      link: 'Elibro.net',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Bolivar Palechor. (2019, 22 enero). Por qué PENSAR en grande | Mentalidad | Liderazgo | Emprendimiento | Motivación [Vídeo]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=l606Ff3YRX0',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Gomez, M. (2024). Pirámide de Maslow: qué es, ejemplos y cómo usarla.',
+      link: 'https://blog.hubspot.es/marketing/piramide-maslow-marketing',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Herruzo-Gómez, E., Hernández-Sánchez, B. R., & Cardella, G. M. (2019). Emprendimiento e innovación: oportunidades para todos. Dykinson.',
+      link: 'Elibro.net',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Il Sung Park, S., & Duarte Masi, S. (2015). El perfil del emprendedor y los estudios relacionados a los emprendedores Iberoamericanos. Revista Internacional de Investigación en Ciencias Sociales, 11(2), 291-314.',
+      link: 'https://doi.org/10.18004/riics.2015.diciembre.291-314',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Negocios En Tu Mundo. (2020, 19 febrero). Emprendimiento y salud mental - [Negocios en Tm]® [Vídeo]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=svnc2qzRJAA',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Salcedo Camacho, P. D. (2021). Programa emprendedor. Universidad Privada del Valle.',
+      link: 'Elibro.net',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Adaptabilidad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Habilidad de ajustar estrategias y acciones frente a cambios en el entorno o condiciones imprevistas.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Capital Social',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Recursos accesibles a través de redes de relaciones personales o profesionales, fundamentales para emprender.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Creatividad',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Capacidad de generar ideas novedosas y originales para resolver problemas o aprovechar oportunidades.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Ecosistema Emprendedor',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Conjunto de actores, instituciones y recursos que facilitan o dificultan la actividad empresarial en un contexto específico.',
     },
     {
-      termino: 'Moda',
+      termino: 'Emprendedor',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Persona que identifica oportunidades, asume riesgos y lidera proyectos que transforman ideas en realidades.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Emprendimiento',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso de identificar, desarrollar y ejecutar ideas innovadoras que generan valor económico, social o ambiental.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Empresa',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Organización que coordina recursos para producir bienes o servicios y satisfacer necesidades del mercado.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Innovación',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Implementación de ideas, productos o procesos nuevos que aportan valor significativo al mercado o la sociedad.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Inteligencia Emocional',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Capacidad para gestionar emociones propias y comprender las de los demás, favoreciendo relaciones interpersonales efectivas.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Intraemprendimiento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Desarrollo de proyectos innovadores dentro de organizaciones existentes, impulsados por empleados emprendedores.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Liderazgo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Habilidad de influir, motivar y guiar a otros hacia el logro de objetivos comunes.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Modelo de Negocio',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Estrategia que define cómo una empresa crea, entrega y captura valor en su mercado.',
+    },
+    {
+      termino: 'Motivación',
+      significado:
+        'Impulso interno o externo que inspira a una persona a actuar y alcanzar metas específicas.',
+    },
+    {
+      termino: 'Proactividad',
+      significado:
+        'Actitud de anticiparse a los problemas o necesidades, buscando soluciones antes de que ocurran.',
+    },
+    {
+      termino: 'Resiliencia',
+      significado:
+        'Capacidad de superar adversidades, aprender de ellas y seguir adelante con mayor fortaleza.',
+    },
+    {
+      termino: 'Responsabilidad Social Corporativa',
+      significado:
+        'Prácticas empresariales que buscan un impacto positivo en la sociedad y el medio ambiente.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'Desarrollo que satisface las necesidades actuales sin comprometer las capacidades de las futuras generaciones.',
+    },
+    {
+      termino: 'Toma de Riesgos',
+      significado:
+        'Disposición para asumir decisiones con incertidumbre calculada, con el objetivo de generar valor.',
+    },
+    {
+      termino: 'Visión',
+      significado:
+        'Proyección estratégica de lo que una organización aspira alcanzar en el largo plazo.',
     },
   ],
   complementario: [
