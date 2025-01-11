@@ -31,7 +31,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Definiciones de emprendimiento, emprendedor y empresa',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -52,7 +52,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Emprendimiento, motivación y liderazgo',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -67,7 +67,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Origen y desarrollo del espíritu empresarial',
         desarrolloContenidos: true,
         subMenu: [
           {

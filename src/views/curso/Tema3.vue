@@ -190,7 +190,7 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
-    .bg-full-width.border-top.actividad.bg-color-4
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
       .p-4.p-md-5
         #Actividad                
           <Actividad :cuestionario="cuestionario"/>
@@ -204,7 +204,132 @@ export default {
   components: {
     BannerInterno,
   },
-  data: () => ({}),
+  data: () => ({
+    cuestionario: {
+      tema: 'Fundamentos del Emprendimiento',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Qué se entiende por emprendimiento?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Proceso exclusivo de creación de empresas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Fenómeno que combina creatividad, innovación y acción estratégica',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Actividad limitada a proyectos comerciales lucrativos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Proceso exclusivo para resolver problemas ambientales',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: '¿Cuál es una característica distintiva del emprendimiento?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Su exclusividad en mercados locales',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Su conexión intrínseca con la innovación',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Su enfoque exclusivo en el beneficio económico',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Su dependencia total del apoyo gubernamental',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué categoría de emprendimiento se centra en la resolución de problemas sociales?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Emprendimiento tecnológico', esCorrecta: false },
+            { id: 'b', texto: 'Emprendimiento social', esCorrecta: true },
+            { id: 'c', texto: 'Emprendimiento tradicional', esCorrecta: false },
+            { id: 'd', texto: 'Intraemprendimiento', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué tipo de motivación se basa en el deseo interno de alcanzar metas personales?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Motivación extrínseca', esCorrecta: false },
+            { id: 'b', texto: 'Motivación interna', esCorrecta: false },
+            { id: 'c', texto: 'Motivación intrínseca', esCorrecta: true },
+            { id: 'd', texto: 'Motivación profesional', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: '¿Qué implica la resiliencia en un emprendedor?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Evitar riesgos y fracasos', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Aprender de fracasos y adaptarse a los cambios',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Centrarse únicamente en la sostenibilidad económica',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dependencia de la motivación externa',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
