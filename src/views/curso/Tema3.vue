@@ -73,7 +73,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Enfoque sociológico 
           p.mb-5 En el documento se aborda el enfoque sociológico del emprendimiento, el cual analiza cómo los factores sociales, culturales y estructurales influyen en la actividad emprendedora. Este enfoque destaca el papel del capital social, las redes de relaciones y las normas culturales en el éxito empresarial.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.shadow-sm.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_ENFOQUE SOCIOLÓGICO.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Enfoque sociológico de emprendimiento
              
